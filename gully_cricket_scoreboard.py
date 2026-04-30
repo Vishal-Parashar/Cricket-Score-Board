@@ -1,7 +1,3 @@
-# ============================================================
-#           GULLY CRICKET SCOREBOARD - Procedural Python
-# ============================================================
-
 # ---------- Global Data Stores ----------
 team1_name = ""
 team2_name = ""
@@ -58,7 +54,7 @@ def double_line():
 
 def banner(text):
     double_line()
-    print(f"  {text}")
+    print(text)
     double_line()
 
 def pause():
@@ -669,6 +665,5 @@ def main():
     print("\n  Thanks for using Gully Cricket Scoreboard! 🏏\n")
 
 
-# ---------- Entry Point ----------
-if __name__ == "__main__":
-    main()
+
+main()
